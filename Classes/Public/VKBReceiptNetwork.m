@@ -119,16 +119,16 @@
                     completion(httpResponse, nil, parseError);
                 
                 return;
-                
-                NSError *jsonError = nil;
-                NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:data options:0 error:&jsonError];
-                if ([jsonDict isKindOfClass:[NSDictionary class]] && !jsonError) {
-                    if (completion)
-                        completion(httpResponse, jsonDict, nil);
-                } else {
-                    if (completion)
-                        completion(httpResponse, nil, jsonError);
-                }
+            }
+            
+            NSError *jsonError = nil;
+            NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:data options:0 error:&jsonError];
+            if ([jsonDict isKindOfClass:[NSDictionary class]] && !jsonError) {
+                if (completion)
+                    completion(httpResponse, jsonDict, nil);
+            } else {
+                if (completion)
+                    completion(httpResponse, nil, jsonError);
             }
         });
     }];

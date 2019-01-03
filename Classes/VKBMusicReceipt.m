@@ -44,7 +44,7 @@
 + (VKBMusicReceipt * _Nullable)parse:(NSDictionary *)dict
 {
     NSDictionary *receiptInfo = dict[@"receipt"];
-    if ([receiptInfo isKindOfClass:[NSString class]]) {
+    if ([receiptInfo isKindOfClass:[NSDictionary class]]) {
         NSString *appBundleID = @"";
         NSString *appBuild = @"";
         
