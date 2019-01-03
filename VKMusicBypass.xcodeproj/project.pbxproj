@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5D5C39221DDF7A500C04715 /* VKBMusicReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D5C39121DDF7A500C04715 /* VKBMusicReceipt.m */; };
+		A5D5C39B21DDF7D300C04715 /* VKBSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D5C39A21DDF7D300C04715 /* VKBSwizzle.m */; };
+		A5D5C3DB21DE0F5D00C04715 /* VKBRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D5C3DA21DE0F5D00C04715 /* VKBRequestBuilder.m */; };
+		A5D5C3E221DE1DCA00C04715 /* VKBReceiptNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D5C3E121DE1DCA00C04715 /* VKBReceiptNetwork.m */; };
+		A5D5C3E321DE267200C04715 /* VKMusicBypass.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5D5C39C21DDF93700C04715 /* VKMusicBypass.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5D5C38B21DDF7A500C04715 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A5D5C3E321DE267200C04715 /* VKMusicBypass.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5D5C38D21DDF7A500C04715 /* libVKMusicBypass.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVKMusicBypass.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D5C39021DDF7A500C04715 /* VKBMusicReceipt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKBMusicReceipt.h; sourceTree = "<group>"; };
+		A5D5C39121DDF7A500C04715 /* VKBMusicReceipt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKBMusicReceipt.m; sourceTree = "<group>"; };
+		A5D5C39A21DDF7D300C04715 /* VKBSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKBSwizzle.m; sourceTree = "<group>"; };
+		A5D5C39C21DDF93700C04715 /* VKMusicBypass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKMusicBypass.h; sourceTree = "<group>"; };
+		A5D5C3D921DE0F5D00C04715 /* VKBRequestBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKBRequestBuilder.h; sourceTree = "<group>"; };
+		A5D5C3DA21DE0F5D00C04715 /* VKBRequestBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKBRequestBuilder.m; sourceTree = "<group>"; };
+		A5D5C3E021DE1DCA00C04715 /* VKBReceiptNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKBReceiptNetwork.h; sourceTree = "<group>"; };
+		A5D5C3E121DE1DCA00C04715 /* VKBReceiptNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKBReceiptNetwork.m; sourceTree = "<group>"; };
+		A5D5C3E621DE345C00C04715 /* CaptainHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptainHook.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D5C38A21DDF7A500C04715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D5C38421DDF7A500C04715 = {
+			isa = PBXGroup;
+			children = (
+				A5D5C38F21DDF7A500C04715 /* Classes */,
+				A5D5C38E21DDF7A500C04715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D5C38E21DDF7A500C04715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5C38D21DDF7A500C04715 /* libVKMusicBypass.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D5C38F21DDF7A500C04715 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5C3E621DE345C00C04715 /* CaptainHook.h */,
+				A5D5C39C21DDF93700C04715 /* VKMusicBypass.h */,
+				A5D5C39A21DDF7D300C04715 /* VKBSwizzle.m */,
+				A5D5C39021DDF7A500C04715 /* VKBMusicReceipt.h */,
+				A5D5C39121DDF7A500C04715 /* VKBMusicReceipt.m */,
+				A5D5C3E021DE1DCA00C04715 /* VKBReceiptNetwork.h */,
+				A5D5C3E121DE1DCA00C04715 /* VKBReceiptNetwork.m */,
+				A5D5C3D921DE0F5D00C04715 /* VKBRequestBuilder.h */,
+				A5D5C3DA21DE0F5D00C04715 /* VKBRequestBuilder.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D5C38C21DDF7A500C04715 /* VKMusicBypass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D5C39621DDF7A500C04715 /* Build configuration list for PBXNativeTarget "VKMusicBypass" */;
+			buildPhases = (
+				A5D5C38921DDF7A500C04715 /* Sources */,
+				A5D5C38A21DDF7A500C04715 /* Frameworks */,
+				A5D5C38B21DDF7A500C04715 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKMusicBypass;
+			productName = VKMusicBypass;
+			productReference = A5D5C38D21DDF7A500C04715 /* libVKMusicBypass.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D5C38521DDF7A500C04715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VKB;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Даниил";
+				TargetAttributes = {
+					A5D5C38C21DDF7A500C04715 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A5D5C38821DDF7A500C04715 /* Build configuration list for PBXProject "VKMusicBypass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5D5C38421DDF7A500C04715;
+			productRefGroup = A5D5C38E21DDF7A500C04715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D5C38C21DDF7A500C04715 /* VKMusicBypass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D5C38921DDF7A500C04715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D5C39B21DDF7D300C04715 /* VKBSwizzle.m in Sources */,
+				A5D5C3DB21DE0F5D00C04715 /* VKBRequestBuilder.m in Sources */,
+				A5D5C39221DDF7A500C04715 /* VKBMusicReceipt.m in Sources */,
+				A5D5C3E221DE1DCA00C04715 /* VKBReceiptNetwork.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5D5C39421DDF7A500C04715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5D5C39521DDF7A500C04715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D5C39721DDF7A500C04715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VW97WHTS78;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5D5C39821DDF7A500C04715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = VW97WHTS78;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D5C38821DDF7A500C04715 /* Build configuration list for PBXProject "VKMusicBypass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D5C39421DDF7A500C04715 /* Debug */,
+				A5D5C39521DDF7A500C04715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D5C39621DDF7A500C04715 /* Build configuration list for PBXNativeTarget "VKMusicBypass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D5C39721DDF7A500C04715 /* Debug */,
+				A5D5C39821DDF7A500C04715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D5C38521DDF7A500C04715 /* Project object */;
+}
