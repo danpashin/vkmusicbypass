@@ -70,17 +70,25 @@
 		A5D5C38F21DDF7A500C04715 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A5D5C3E621DE345C00C04715 /* CaptainHook.h */,
-				A5D5C39C21DDF93700C04715 /* VKMusicBypass.h */,
+				A5D5C3EA21DE3F3F00C04715 /* Public */,
 				A5D5C39A21DDF7D300C04715 /* VKBSwizzle.m */,
 				A5D5C39021DDF7A500C04715 /* VKBMusicReceipt.h */,
 				A5D5C39121DDF7A500C04715 /* VKBMusicReceipt.m */,
-				A5D5C3E021DE1DCA00C04715 /* VKBReceiptNetwork.h */,
-				A5D5C3E121DE1DCA00C04715 /* VKBReceiptNetwork.m */,
 				A5D5C3D921DE0F5D00C04715 /* VKBRequestBuilder.h */,
 				A5D5C3DA21DE0F5D00C04715 /* VKBRequestBuilder.m */,
+				A5D5C3E621DE345C00C04715 /* CaptainHook.h */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5D5C3EA21DE3F3F00C04715 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				A5D5C39C21DDF93700C04715 /* VKMusicBypass.h */,
+				A5D5C3E021DE1DCA00C04715 /* VKBReceiptNetwork.h */,
+				A5D5C3E121DE1DCA00C04715 /* VKBReceiptNetwork.m */,
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
