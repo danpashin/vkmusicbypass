@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://gitlab.com/danpashin/VKMusicBypass'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'danpashin' => 'admin@danpashin.ru' }
-  s.source           = { :git => 'git@gitlab.com:danpashin/vkmusicbypass.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:danpashin/vkmusicbypass.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
