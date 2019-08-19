@@ -38,6 +38,20 @@ CHDeclareClassMethod(0, NSString *, AuthModel, base64ReceiptString)
     return receipt;
 }
 
+CHDeclareClass(VKMMainController);
+CHDeclareClassMethod(0, NSString *, VKMMainController, base64ReceiptString)
+{
+    NSString *receipt = CHSuper(0, VKMMainController, base64ReceiptString);
+    
+    if (vkb_shouldBypassMusic && receipt.length == 0) {
+        VKBMusicReceipt *defaultReceipt = VKBMusicReceipt.defaultReceipt;
+        if ([defaultReceipt isKindOfClass:[VKBMusicReceipt class]])
+        receipt = defaultReceipt.base64receipt;
+    }
+    
+    return receipt;
+}
+
 CHDeclareClass(MOReceiptRefreshRequest);
 CHDeclareMethod(0, void, MOReceiptRefreshRequest, start)
 {

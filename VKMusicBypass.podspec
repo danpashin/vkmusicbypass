@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VKMusicBypass'
-  s.version          = '0.3'
+  s.version          = '0.4'
   s.summary          = 'Simple library to bypass music in VK App for iPhone'
 
   s.homepage         = 'https://gitlab.com/danpashin/VKMusicBypass'
